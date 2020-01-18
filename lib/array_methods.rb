@@ -28,7 +28,7 @@ return counter
 end
 
 def find_min_value(array)
-counter = 0 
+counter = array[0] 
 
 array.each do |values|
   if counter > values
