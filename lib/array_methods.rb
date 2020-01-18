@@ -28,8 +28,8 @@ return counter
 end
 
 def find_min_value(array)
-  i = 0 
-counter =- 0 
+i = 0 
+counter =
 
 while i < array.length do 
   if array[i] < counter 
