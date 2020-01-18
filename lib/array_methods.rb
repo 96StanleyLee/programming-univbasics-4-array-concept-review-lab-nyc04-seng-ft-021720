@@ -2,7 +2,7 @@ def find_element_index(array, value_to_find)
   i = 0 
   number_of_index = nil
   while i < array.length do 
-    if array[i].includes? value_to_find
+    if array[i].include? value_to_find
       number_of_index = i
     end
     i = i + 1 
