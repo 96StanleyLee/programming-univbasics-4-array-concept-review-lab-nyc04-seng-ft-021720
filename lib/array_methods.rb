@@ -3,8 +3,11 @@ def find_element_index(array, value_to_find)
  array.each do |values|
    if values == value_to_find
      counter = values 
+     return counter 
    end 
-   
+ end 
+ 
+ return nil
   
 end
 
