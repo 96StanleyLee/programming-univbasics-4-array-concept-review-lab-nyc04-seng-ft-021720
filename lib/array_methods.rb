@@ -1,12 +1,14 @@
 def find_element_index(array, value_to_find)
   i = 0 
-  number_of_index = 0 
+  number_of_index = nil
   while i < array.length do 
     if array[i].includes? value_to_find
-      return i 
-    else 
-      return nil 
-    end 
+      number_of_index = i
+    end
+    i = i + 1 
+  end 
+  
+  return number_of_index
     
 end
 
