@@ -1,15 +1,10 @@
 def find_element_index(array, value_to_find)
-  i = 0 
-  number_of_index = 0 
-  while i < array.length do 
-    if array[i] == value_to_find
-      return i 
-    end 
-    i = i +1 
-  end 
-  
-  return nil
-  
+ counter = 0 
+ array.each do |values|
+   if values == value_to_find
+     counter = values 
+   end 
+   
   
 end
 
