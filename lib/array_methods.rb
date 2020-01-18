@@ -4,13 +4,15 @@ def find_element_index(array, value_to_find)
   while i < array.length do 
     if array[i] == value_to_find
       number_of_index = i 
-    else
-      nil
     end 
     i = i+ 1 
   end 
   
-  return number_of_index
+  if number_of_index == 0 
+    return nil 
+  end 
+  
+  number_of_index
 end
 
 def find_max_value(array)
