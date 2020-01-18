@@ -32,7 +32,7 @@ i = 0
 counter = 0
 
 while i < array.length do 
-  if counter > array[i]
+  if array[i] > counter 
     counter = array[i]
   end 
   i = i+1 
