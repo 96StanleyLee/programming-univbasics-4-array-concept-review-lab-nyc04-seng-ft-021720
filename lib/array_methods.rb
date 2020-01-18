@@ -28,13 +28,17 @@ return counter
 end
 
 def find_min_value(array)
-  counter = array[0]
+i = 0 
+counter = [0]
 
-  array.each do |values|
-    if values < counter
-      counter = values
-    end
-  end
-  p counter
+while i < array.length do 
+  if array[i] > counter 
+    counter = array[i]
+  end 
+  i = i+1 
+end 
+
+return counter
+
 
 end
