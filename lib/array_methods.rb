@@ -28,5 +28,15 @@ return counter
 end
 
 def find_min_value(array)
-  # Add your solution here
-end
+  # Add your solution herei = 0 
+counter =- 0 
+
+while i < array.length do 
+  if array[i] < counter 
+    counter = array[i]
+  end 
+  i = i+1 
+end 
+
+return counter
+d
