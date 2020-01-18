@@ -1,11 +1,22 @@
 def find_element_index(array, value_to_find)
-  counter = 0
+  i = 0 
+  number_of_index = 0 
+  while i < array.length do 
+    if array[i] == value_to_find
+      number_of_index = i 
+    end 
+    i = i +1 
+  end 
+  
+  return number_of_index
+  
+  
+end
 
-  array.each do |values|
-    if values == value_to_find
-      counter = array.index(values)
-      return counter
-    end
-  end
-return nil
+def find_max_value(array)
+  # Add your solution here
+end
+
+def find_min_value(array)
+  # Add your solution here
 end
