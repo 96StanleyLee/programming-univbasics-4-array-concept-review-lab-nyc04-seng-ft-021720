@@ -3,12 +3,12 @@ def find_element_index(array, value_to_find)
   number_of_index = 0 
   while i < array.length do 
     if array[i] == value_to_find
-      number_of_index = i 
+      return i 
     end 
     i = i +1 
   end 
   
-  return number_of_index
+  return nil
   
   
 end
