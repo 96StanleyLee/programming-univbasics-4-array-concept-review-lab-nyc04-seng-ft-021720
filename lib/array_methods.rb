@@ -19,7 +19,7 @@ counter =- 0
 
 while i < array.length do 
   if array[i] > counter 
-    counter = i 
+    counter = array[i]
   end 
   i = i+1 
 end 
